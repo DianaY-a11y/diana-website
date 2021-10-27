@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# Diana Yue's Personal Website
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ff0aa5a1-22a5-4274-81b7-1f2e079017cb/deploy-status)](https://app.netlify.com/sites/dianayue/deploys)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
