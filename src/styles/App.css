@@ -12,9 +12,11 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
-.App-header {
-  background-color: #282c34;
+ 
+.App-main {
+  background: url("../assets/images/background.jpg") rgb(182, 123, 110);
+  background-size: cover;
+  background-blend-mode: multiply;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
