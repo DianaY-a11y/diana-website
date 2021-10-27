@@ -21,6 +21,7 @@ const ProfileImage = styled.img`
 
   @media (max-width: 768px) {
     margin-bottom: 20px;
+    margin-right: 0px;
   }
 `
 
