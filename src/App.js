@@ -61,7 +61,7 @@ function App() {
           <ProfileImage src={profile} alt="Profile Picture"/>
           <IntroContainer>
             <Title>🌟 Hey! I'm <span className="special-text">Diana Yue</span></Title>
-            <Paragraph>I'm a Beijinger from Cincinnati, Ohio. Also a current student (potentially) studying philsophy with a secondary in CS at Harvard College. I'm obsessed with all films 🎥 and painting 🎨</Paragraph>
+            <Paragraph>I'm a Beijinger from Cincinnati. Also a current student (potentially) studying philsophy with a secondary in CS at Harvard College. I'm obsessed with all films 🎥 and painting 🎨</Paragraph>
             <LinkContainer>
               <Link href="mailto:dianayue@college.harvard.edu">Email Me</Link>
               <Link href="https://github.com/dianayue225/diana-website">Github</Link>
