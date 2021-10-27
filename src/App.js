@@ -48,6 +48,7 @@ const LinkContainer = styled.div`
 
 const Link = styled.a`
   font-size: 0.6em;
+  font-weight: 500;
   color: #a29bfe;
   margin-right: 10px;
 `
