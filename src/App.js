@@ -14,8 +14,8 @@ const Container = styled.div`
 `
 
 const ProfileImage = styled.img`
-  height: 150px;
-  width: 150px;
+  height: 250px;
+  width: 250px;
   border-radius: 75px;
   margin: 0px 50px 0px 0px;
 
@@ -33,11 +33,11 @@ const IntroContainer = styled.div`
 
 const Title = styled.h1`
   margin: 0px;
-  font-size: 1em;
+  font-size: 2em;
 `
 
 const Paragraph = styled.p`
-  font-size: 0.6em;
+  font-size: 0.8em;
   text-align: left;
   margin: 5px 0px;
 `
@@ -50,7 +50,7 @@ const LinkContainer = styled.div`
 const Link = styled.a`
   font-size: 0.6em;
   font-weight: 500;
-  color: #a29bfe;
+  color: #50343E;
   margin-right: 10px;
 `
 
@@ -58,11 +58,16 @@ function App() {
   return (
     <div className="App">
       <div className="App-main">
+      <Title>🌟 Hey! I'm <span className="special-text">Diana Yue🌟</span></Title>
         <Container >
           <ProfileImage src={profile} alt="Profile Picture"/>
           <IntroContainer>
+<<<<<<< Updated upstream
             <Title>🌟 Hey! I'm <span className="special-text">Diana Yue</span></Title>
             <Paragraph>I'm a Beijinger from Cincinnati. Also a current student studying computer science and philsophy at Harvard College. I'm obsessed with all films 🎥 and painting 🎨</Paragraph>
+=======
+            <Paragraph>I'm a Beijinger from Cincinnati. Also a current student studying computer science and philsophy at Harvard College. I'm love films 🎥 and painting 🎨</Paragraph>
+>>>>>>> Stashed changes
             <LinkContainer>
               <Link href="mailto:dianayue@college.harvard.edu">Email Me</Link>
               <Link href="https://github.com/DianaY-a11y?tab=repositories">Github Work</Link>

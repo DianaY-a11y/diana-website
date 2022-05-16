@@ -14,7 +14,7 @@
 }
  
 .App-main {
-  background: url("../assets/images/background.jpg") rgb(182, 123, 110);
+  background: rgb(215, 141, 167);
   background-size: cover;
   background-blend-mode: multiply;
   min-height: 100vh;
