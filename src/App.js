@@ -32,8 +32,8 @@ const IntroContainer = styled.div`
 `
 
 const Title = styled.h1`
-  margin: 0px;
-  font-size: 2em;
+  margin: 150px 20px;
+  font-size: 1.8em;
 `
 
 const Paragraph = styled.p`
@@ -57,8 +57,8 @@ const Link = styled.a`
 function App() {
   return (
     <div className="App">
+      <div className = "one"><Title>🌟 Hey! I'm <span className="special-text">Diana Yue</span>🌟</Title></div>
       <div className="App-main">
-        <Title>🌟 Hey! I'm <span className="special-text">Diana Yue</span></Title>
         <Container >
           <ProfileImage src={profile} alt="Profile Picture"/>
           <IntroContainer>
