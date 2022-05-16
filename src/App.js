@@ -16,7 +16,7 @@ const Container = styled.div`
 const ProfileImage = styled.img`
   height: 200px;
   width: 200;
-  border-radius: 75px;
+  border-radius: 95px;
   margin: 0px 50px 0px 0px;
 
   @media (max-width: 768px) {
@@ -39,7 +39,7 @@ const Title = styled.h1`
 const Paragraph = styled.p`
   font-size: 0.9em;
   text-align: left;
-  margin: 5px 0px;
+  margin: 20px 0px;
 `
 
 const LinkContainer = styled.div`
