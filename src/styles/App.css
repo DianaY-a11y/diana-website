@@ -19,15 +19,9 @@ section{
 }
 
 .one{
-  background-image: url("../assets/images/first.jpg");
-  height: 100%;
-  min-height: 100vh;
-  background-size: cover;
-  background-position: center;
   display: flex;
-  text-align: left;
+  text-align: right;
   flex-direction: column;
-  align-items: left;
   justify-content: top;
   font-size: calc(10px + 2vmin);
   color: white;
@@ -57,4 +51,22 @@ section{
   to {
     transform: rotate(360deg);
   }
+}
+
+@import url("https://fonts.googleapis.com/css?family=Signika+Negative:300,400&display=swap");
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  position: relative;
+  letter-spacing: 0.04em;
+}
+
+.revealUp {
+  opacity: 0;
+  visibility: hidden;
+}
+.spacer {
+  height: 50vh;
+  background-color: #000;
 }

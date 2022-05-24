@@ -1,6 +1,9 @@
 import profile from './assets/images/profile.jpg';
+import background from './assets/images/hello.png';
 import './styles/App.css';
 import styled from 'styled-components'
+import {gsap, ScrollTrigger, Draggable, MotionPathPlugin } from "gsap/all"
+gsap.registerPlugin(ScrollTrigger, Draggable, MotionPathPlugin)
 
 const Container = styled.div`
   display: flex;
@@ -11,6 +14,16 @@ const Container = styled.div`
     flex-direction: column;
     width: 80%;
   }
+`
+
+const MyStyle=styled.div`
+  background-image: url(${background});
+  background-color: black;
+  height:100vh;
+  width: 100vw;
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover;
 `
 
 const ProfileImage = styled.img`
@@ -24,7 +37,6 @@ const ProfileImage = styled.img`
     margin-right: 0px;
   }
 `
-
 const IntroContainer = styled.div`
   display: flex;
   flex-direction: column;
@@ -32,8 +44,12 @@ const IntroContainer = styled.div`
 `
 
 const Title = styled.h1`
-  margin: 150px 20px;
   font-size: 1.8em;
+  margin: 3em 3em;
+  text-align:left;
+  align-items: left;
+  justify-content: top;
+  fontsize: calc(10px + 2vmin);
 `
 
 const Paragraph = styled.p`
@@ -54,15 +70,44 @@ const Link = styled.a`
   margin-right: 10px;
 `
 
+const revealUp=styled.div`
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 8rem;
+`
+
+gsap.to(".revealUp", {
+  autoAlpha: 1,
+  ease: "power1.in",
+  ScrollTrigger: {
+    trigger: ".revealUp",
+    pin: true,
+    scrub: true
+  }
+});
+
 function App() {
   return (
     <div className="App">
-      <div className = "one"><Title>🌟 Hey! I'm <span className="special-text">Diana Yue</span>🌟</Title></div>
+      <div className="one">
+      <MyStyle>
+      <div className="revealUp"><Title>🌟 Hey! I'm <span className="special-text">What's up</span>🌟</Title>
+      </div>
+      </MyStyle>
+    </div>
       <div className="App-main">
-        <Container >
+        <Container>
+        <div className="revealUp">
           <ProfileImage src={profile} alt="Profile Picture"/>
+          </div>
           <IntroContainer>
+          <div className = "revealUp">
             <Paragraph>I'm a Beijinger from Cincinnati. Also a current student studying computer science and philsophy at Harvard College. I'm obsessed with all films 🎥 and painting 🎨</Paragraph>
+            </div>
             <LinkContainer>
               <Link href="mailto:dianayue@college.harvard.edu">Email Me</Link>
               <Link href="https://github.com/DianaY-a11y?tab=repositories">Github Work</Link>
