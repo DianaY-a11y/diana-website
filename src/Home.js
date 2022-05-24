@@ -1,7 +1,7 @@
 import React from 'react';
+import styled from 'styled-components';
 import profile from './assets/images/profile.jpg';
 import './styles/App.css';
-import styled from 'styled-components'
 
 const Container = styled.div`
   display: flex;

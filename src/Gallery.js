@@ -1,5 +1,4 @@
 import React from "react";
-import './styles/gallery.css';
 import Img1 from './assets/myWork/corn.png';
 import Img2 from './assets/myWork/covid.png';
 import Img3 from './assets/myWork/fight.png';
@@ -7,6 +6,7 @@ import Img4 from './assets/myWork/man.png';
 import Img5 from './assets/myWork/metoo.png';
 import Img6 from './assets/myWork/prize.png';
 import Img7 from './assets/myWork/teeth.png';
+import './styles/gallery.css';
 
 
 

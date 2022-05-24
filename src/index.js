@@ -1,11 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './styles/index.css';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import App from './App';
+import Art from './Art';
 import reportWebVitals from './reportWebVitals';
-import Home from './Home';
-import Art from './Art'
-import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import './styles/index.css';
 
 
 ReactDOM.render(

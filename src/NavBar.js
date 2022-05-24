@@ -1,8 +1,8 @@
 import React from "react";
-import {Link} from "react-router-dom";
-import './styles/NavBar.css';
+import { Link } from "react-router-dom";
 import styled from 'styled-components';
 import logo from './assets/images/logo.png';
+import './styles/NavBar.css';
 
 const Logo = styled.img`
   height: 95px;
