@@ -1,9 +1,6 @@
 import profile from './assets/images/profile.jpg';
 import './styles/App.css';
 import styled from 'styled-components'
-import {gsap, ScrollTrigger, Draggable, MotionPathPlugin } from "gsap/all"
-
-gsap.registerPlugin(ScrollTrigger, Draggable, MotionPathPlugin)
 
 const Container = styled.div`
   display: flex;
