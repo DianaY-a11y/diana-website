@@ -1,0 +1,38 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    width: 100%;
+  }
+  
+.logo{
+    margin-left: 1rem;
+    color: white;
+    font-size: 50px;
+    font-weight: bolder;
+  }
+  
+.items{
+    display: flex;
+  }
+
+.ul{
+    display: flex;
+    margin: 15px 50px;
+    font-size: 15px;
+  }
+
+.h1{
+    margin: 10px 10px 10px 10px;
+  }
+
+a{
+  color: white;
+  text-decoration: none;
+  margin: 0 0.8rem;
+}
+
+a:hover {
+  color: pink;
+}
