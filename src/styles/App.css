@@ -1,5 +1,7 @@
+
 .App {
   text-align: center;
+  width: 100%;
 }
 
 .App-logo {
@@ -12,7 +14,25 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
- 
+
+section{
+  height: 100%;
+  display: flex;
+}
+
+.one{
+  background-image: url("../assets/images/hello.png");
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height:100vh;
+  width: 100%;
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover;
+}
+
 .App-main {
   background: rgb(215, 141, 167);
   background-size: cover;
