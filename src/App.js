@@ -95,19 +95,19 @@ function App() {
     <div className="App">
       <div className="one">
       <MyStyle>
-      <div className="revealUp"><Title>🌟 Hey! I'm <span className="special-text">What's up</span>🌟</Title>
-      </div>
+      <revealUp><Title>🌟 Hey! I'm <span className="special-text">What's up</span>🌟</Title>
+      </revealUp>
       </MyStyle>
     </div>
       <div className="App-main">
         <Container>
-        <div className="revealUp">
+        <revealUp>
           <ProfileImage src={profile} alt="Profile Picture"/>
-          </div>
+          </revealUp>
           <IntroContainer>
-          <div className = "revealUp">
+          <revealUp>
             <Paragraph>I'm a Beijinger from Cincinnati. Also a current student studying computer science and philsophy at Harvard College. I'm obsessed with all films 🎥 and painting 🎨</Paragraph>
-            </div>
+            </revealUp>
             <LinkContainer>
               <Link href="mailto:dianayue@college.harvard.edu">Email Me</Link>
               <Link href="https://github.com/DianaY-a11y?tab=repositories">Github Work</Link>
