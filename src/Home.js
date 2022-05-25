@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import styled from 'styled-components';
 import profile from './assets/images/profile.jpg';
 import './styles/App.css';
@@ -54,7 +55,14 @@ const LinkContainer = styled.div`
   width: 100%;
 `
 
-const Link = styled.a`
+const LinkStyle = styled.a`
+  font-size: 0.8em;
+  font-weight: 500;
+  color: #50343E;
+  margin-right: 10px;
+  `
+
+  const RouterLinkStyle = styled(Link)`
   font-size: 0.8em;
   font-weight: 500;
   color: #50343E;
@@ -77,9 +85,9 @@ function home() {
           <IntroContainer>
             <Paragraph>I'm a Beijinger from Cincinnati. Also a current student studying computer science and philsophy at Harvard College. In my spare time, love films 🎥, painting 🎨, and making new experiences🎉</Paragraph>
             <LinkContainer>
-              <Link href="mailto:dianayue@college.harvard.edu">Email Me</Link>
-              <Link href="https://github.com/DianaY-a11y?tab=repositories">Github Work</Link>
-              <Link to="/Art">Art...for fun</Link>
+              <LinkStyle href="mailto:dianayue@college.harvard.edu">Email Me</LinkStyle>
+              <LinkStyle href="https://github.com/DianaY-a11y?tab=repositories">Github Work</LinkStyle>
+              <RouterLinkStyle to="/Art">Art...for fun</RouterLinkStyle>
             </LinkContainer>
           </IntroContainer>
         </Container>
