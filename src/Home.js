@@ -79,7 +79,7 @@ function home() {
             <LinkContainer>
               <Link href="mailto:dianayue@college.harvard.edu">Email Me</Link>
               <Link href="https://github.com/DianaY-a11y?tab=repositories">Github Work</Link>
-              <Link href="https://dianayue.com/Art">Art...for fun!</Link>
+              <Link to="/Art">Art...for fun</Link>
             </LinkContainer>
           </IntroContainer>
         </Container>
