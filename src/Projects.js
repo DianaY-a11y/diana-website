@@ -1,8 +1,7 @@
 import React from "react";
-import Gallery from "./Gallery";
-import "./styles/App.css";
+import "./styles/Projects.css";
 
-function Art() {
+function Project() {
   return (
     <div className="App">
       <div className="Main">
@@ -12,4 +11,4 @@ function Art() {
   );
 }
 
-export default Art;
+export default Project;
