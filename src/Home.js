@@ -2,8 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 import profile from "./assets/images/profile.jpg";
-import moon from "./assets/images/moon.png";
-import me from "./assets/images/me.png";
 import "./styles/App.css";
 
 const Container = styled.div`
