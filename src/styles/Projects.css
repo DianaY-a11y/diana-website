@@ -33,7 +33,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    height: 80%;
+    height: 30vh;
     width: 100%;
 }
 
@@ -41,13 +41,14 @@
     display: flex;
     flex-wrap: wrap;
     height: 100%;
-    width: 50%;
+    width: 100%;
 }
 
 .TodoImage{
     background-image: url("../assets/images/todo.jpg"); 
     background-position: center;
     background-size: contain;
+    border-image: 100px;
     background-repeat: no-repeat;
     height: 100%;
     width: 100%;
@@ -73,6 +74,7 @@
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
+    border-radius: 30px;
     height: 100%;
     width: 100%;
 }
